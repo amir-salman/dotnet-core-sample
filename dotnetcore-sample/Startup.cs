@@ -18,6 +18,8 @@ namespace dotnetcore_sample
         {
             string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             string appSettingsFilePath = Path.Combine(assemblyFolder,"appsettings.json");
+            string letTestDevOps = "Put some text here";
+            string test2DevOps = "";
 
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
